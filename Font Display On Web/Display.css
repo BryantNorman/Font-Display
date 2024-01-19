@@ -1,0 +1,72 @@
+/* Define the CustomFont styles */
+@font-face {
+    font-family: "CustomFont";
+    src: url("/digital-7.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "CustomFontItalic";
+    src: url("/digital-7 (italic).ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "CustomFontMonoItalic";
+    src: url("/digital-7 (mono italic).ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "CustomFontMono";
+    src: url("/digital-7 (mono).ttf") format("truetype");
+}
+
+/* Apply the CustomFont style to the body */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 800px;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.main-heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Apply different CustomFont styles to each .output p element */
+.output p {
+    font-size: 30px;
+}
+
+#outputText1 {
+    font-family: "CustomFont";
+}
+
+#outputText2 {
+    font-family: "CustomFontItalic";
+}
+
+#outputText3 {
+    font-family: "CustomFontMonoItalic";
+}
+
+#outputText4 {
+    font-family: "CustomFontMono";
+}
